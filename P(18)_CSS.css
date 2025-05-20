@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #e2ebd3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a7b97f;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav .BotonV {
+  background-color: #6b813e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.userinfo {
+  text-align: right;
+}
+
+.userinfo a {
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.crud-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  align-items: start;
+}
+
+.image-upload {
+  width: 100%;
+  height: 150px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-icon {
+  font-size: 3em;
+}
+
+.crud-form input,
+.crud-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+}
+
+.crud-form textarea {
+  grid-column: span 1;
+  height: 80px;
+}
+
+.BotonAceptar {
+  grid-column: span 2;
+  justify-self: end;
+  padding: 10px 20px;
+  background-color: #cfe0b4;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Quintas</title>
+    <link rel="stylesheet" href="P(18)_CSS.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="Logo">QuintaViva</div>
+        <nav>
+            <a href="">Quintas</a>
+            <a href="">Sobre nosotros</a>
+            <a href="" class="BotonV">Admin</a>
+        </nav>
+        <div class="userinfo">
+            <span>Nombre de usuario</span>
+            <a href="">Editar info</a>
+            <a href="">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <main class="form-container">
+        <button class="back-button">&larr;</button>
+        <form class="crud-form">
+            <div class="image-upload">
+                <div class="upload-icon">+</div>
+            </div>
+            <input type="text" placeholder="Nombre" name="nombre">
+            <textarea placeholder="Descripción" name="descripcion"></textarea>
+            <input type="number" placeholder="Huéspedes Máximos" name="huespedes">
+            <input type="text" placeholder="Servicios" name="servicios">
+            <input type="text" placeholder="Ubicación" name="ubicacion">
+            <input type="text" placeholder="Tarifa" name="tarifa">
+            <input type="text" placeholder="Ubicación simple" name="ubicacion_simple">
+            <button type="submit" class="BotonAceptar">Aceptar</button>
+        </form>
+    </main>
+</body>
+</html>
+
