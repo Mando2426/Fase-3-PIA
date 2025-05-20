@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  background-color: #6e8a4a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+}
+
+.menu .active {
+  background-color: #43591c;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.user-info {
+  font-size: 14px;
+  text-align: right;
+}
+
+.user-info a {
+  color: white;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+main.contenido {
+  padding: 20px;
+  background-color: #e1e8c7;
+  min-height: 100vh;
+}
+
+.titulo-seccion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.back-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.tabla-clientes {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.tabla-clientes th, .tabla-clientes td {
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tabla-clientes th {
+  background-color: #c3d2a4;
+}
+
+.tabla-clientes a {
+  color: #2c5c2c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paginacion {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.pagina-activa {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.boton-centrado {
+  text-align: center;
+}
+
+.btn-anadir {
+  background-color: #c3d2a4;
+  border: 2px solid #70814c;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
