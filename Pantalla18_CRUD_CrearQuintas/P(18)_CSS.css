@@ -4,39 +4,34 @@ body {
   background-color: #e2ebd3;
 }
 
-.navbar {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a7b97f;
+  background-color: white;
   padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 1.5em;
+  display: flex;
+  align-items: center;
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #000;
+.logo img {
+  height: 70px;
+  margin-right: 5px;
 }
 
-nav .BotonV {
-  background-color: #6b813e;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.userinfo {
+.user-actions {
   text-align: right;
 }
 
-.userinfo a {
+.user-actions a {
+  text-decoration: none;
+  color: #333;
   margin-left: 10px;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 .form-container {
