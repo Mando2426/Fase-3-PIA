@@ -7,9 +7,9 @@ body {
   background-color: #f0f1e5;
 }
 .register-wrapper {
-  width: 90%;
-  max-width: 1000px;
-  border-radius: 20px;
+  width: 60%;
+  max-width: 900px;
+  border-radius: 10px;
   background-color: white;
 }
 
