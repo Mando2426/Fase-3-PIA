@@ -23,3 +23,28 @@ header {
   height: 70px;
   margin-right: 5px;
 }
+
+.user-actions {
+  text-align: right;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.main {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.main img {
+  height: 250px;
+  margin-bottom:px;
+}
+p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
