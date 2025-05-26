@@ -2,7 +2,7 @@
 $servername = "localhost"; 
 $username = "root"; 
 $password = ""; 
-$dbname = "Fase2BD"; 
+$dbname = "Fase2"; 
 
 $conexion = new mysqli($servername, $username, $password, $dbname);
 
