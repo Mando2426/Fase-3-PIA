@@ -1,0 +1,23 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f3f4ec;
+}
+
+.navbar {
+  background-color: #f3f4ec;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #3a4a2b !important;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #3a4a2b;
+  font-weight: bold;
+}
+.logo img {
+  height: 70px;
+  margin-right: 5px;
+  padding-left: 30px;
+}
