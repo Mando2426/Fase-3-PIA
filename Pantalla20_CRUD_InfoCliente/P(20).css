@@ -1,38 +1,25 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f1f1dc;
-  color: #333;
+  font-family: 'Georgia', serif;
+  background-color: #f3f4ec;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ccc;
+.navbar {
+  background-color: #f3f4ec;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+.navbar-brand,
+.nav-link {
+  color: #3a4a2b !important;
 }
 
+.nav-link.active {
+  border-bottom: 2px solid #3a4a2b;
+  font-weight: bold;
+}
 .logo img {
   height: 70px;
   margin-right: 5px;
-}
-
-.user-actions {
-  text-align: right;
-}
-
-.user-actions a {
-  text-decoration: none;
-  color: #333;
-  margin-left: 10px;
-  font-size: 14px;
+  padding-left: 30px;
 }
 
 .cliente-ver {
