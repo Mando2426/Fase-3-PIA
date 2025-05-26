@@ -8,17 +8,33 @@
 </head>
 <body>
     
-  <header>
-    <div class="logo">
-      <img src="img/Logo.png" alt="">
-      <strong>QuintaViva</strong>
+  <nav class="navbar navbar-expand-lg">
+        <div class="logo">
+            <a href="index.html">
+            <img src="../img/logo.png" alt="Logo QuintaViva" style="cursor: pointer;">
+            </a>
+        </div>
+    <div class="container">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../Inicio/quintas.html">Quintas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Inicio/nosotros.html">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Reservar</a>
+          </li>
+        </ul>
+        <div>
+          <a class="nav-link d-inline" href="iniciar.html">Iniciar sesión</a>
+          <span>|</span>
+          <a class="nav-link d-inline" href="registro.html">Registrarse</a>
+        </div>
+      </div>
     </div>
-    <div class="user-actions">
-      <a href="#">Iniciar sesión</a> | 
-      <a href="#">Registrarse</a> 
-      <span>👤</span>
-    </div>
-  </header>
+  </nav>
 
     <main class="form-container">
         <button class="back-button">&larr;</button>
