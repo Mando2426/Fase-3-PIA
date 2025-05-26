@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = $_POST["telefono"];
     $password = password_hash($_POST["password"], PASSWORD_DEFAULT); 
 
-    $sql = "INSERT INTO clientes (email, nombre, apellidos, fecha_nacimiento, telefono, contraseña) 
+    $sql = "INSERT INTO clientes (Nombre, Apellido_P, Apellido_M, Correo, Contraseña, Telefono, Fecha_nac, ID_Rol) 
             VALUES ('$email', '$nombre', '$apellidos', '$fecha_nacimiento', '$telefono', '$password')";
 
     if ($conexion->query($sql) === TRUE) {
