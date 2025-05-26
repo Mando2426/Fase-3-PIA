@@ -1,0 +1,26 @@
+body {
+  font-family: 'Georgia', serif;
+}
+.login-box {
+  max-width: 400px;
+  width: 100%;
+}
+.login-btn {
+  background-color: #3a4a2b;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.login-btn:hover {
+  background-color: #2d3a20;
+}
+.back-arrow {
+  font-size: 1.5rem;
+  color: #3a4a2b;
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
